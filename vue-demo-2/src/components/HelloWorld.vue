@@ -93,7 +93,7 @@ export default {
           url: '/api/admin/shop/status',
           method: 'get',
           headers: {
-            token: res.data.data.token
+            token: res.data.data.token  
           }
         })
       })
